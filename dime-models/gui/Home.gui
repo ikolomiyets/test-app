@@ -1,0 +1,316 @@
+GUI _gF-WEMwMEeWZVvvwxpYu8A {
+  title "Home"
+  additionalStylesheets [  ]
+  additionalJavaScript [  ]
+  fullWidth false
+  Template _gGX-sMwMEeWZVvvwxpYu8A at 380,250 size 340,771  {
+  	blockName "body"
+  	Box _DpAWQPzMEeWITpAvIECxxg at 10,30 size 320,711  {
+  		invisible false
+  		generalStyle GeneralStyling {
+  				marginTop Double
+  				marginBottom Double
+  				tallness Fitting
+  				attributes [  ]
+  			}
+  		MoveUp _DqlqoPzMEeWITpAvIECxxg at 2,2 size 14,7  {
+  		}
+  		
+  		MoveDown _Dqp8EPzMEeWITpAvIECxxg at 2,10 size 14,7  {
+  		}
+  		
+  		Headline _TUsHsPvqEeWWodZOLky4iQ at 10,30 size 200,50  {
+  			size Big
+  			content [ StaticContent {
+  					rawContent "{{currentUser.baseUser.firstName}} {{currentUser.baseUser.lastName}}'s TODOList"
+  					maxChars 0
+  					html false
+  				} ]
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom None
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveUp _TU3G0PvqEeWWodZOLky4iQ at 2,2 size 14,7  {
+  			}
+  			
+  			MoveDown _TU7YQPvqEeWWodZOLky4iQ at 2,10 size 14,7  {
+  			}
+  		}
+  		
+  		GUISIB _QZX7MPvsEeWWodZOLky4iQ at 10,616 size 150,65  {
+  			name "AddList"
+  			libraryComponentUID "_hGBmcN7nEeW7MO8ocVWj8Q"
+  			label "AddList"
+  			generalStyle GeneralStyling {
+  					marginTop None
+  					marginBottom Double
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveUp _Qa0FoPvsEeWWodZOLky4iQ at 2,2 size 14,7  {
+  			}
+  			
+  			MoveDown _Qa1TwPvsEeWWodZOLky4iQ at 2,10 size 14,7  {
+  			}
+  		}
+  		
+  		Panel _W3oLUPvcEeW8X9EYF1nxvw at 10,90 size 300,516  {
+  			collapsable false
+  			defaultOpen "true"
+  			heading [ StaticContent {
+  					rawContent "{{currentList.description}}"
+  					maxChars 0
+  					html false
+  				} ]
+  			footer [  ]
+  			coloring ComponentColoring {
+  					color Default
+  				}
+  			generalStyle GeneralStyling {
+  					marginTop Single
+  					marginBottom Single
+  					tallness Fitting
+  					attributes [  ]
+  				}
+  			MoveUp _W3vgEPvcEeW8X9EYF1nxvw at 2,2 size 14,7  {
+  			}
+  			
+  			MoveDown _W3wuMPvcEeW8X9EYF1nxvw at 2,10 size 14,7  {
+  			}
+  			
+  			Row _W3200PvcEeW8X9EYF1nxvw at 10,30 size 280,220 index 4 {
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _W34C8PvcEeW8X9EYF1nxvw at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _W34qAPvcEeW8X9EYF1nxvw at 2,10 size 14,7  {
+  				}
+  				
+  				Col _W3-JkPvcEeW8X9EYF1nxvw at 10,30 size 250,170  {
+  					wideness Full
+  					layout Layout {
+  							size Default
+  							alignment Right
+  							offset None
+  						}
+  					generalStyle GeneralStyling {
+  							marginTop None
+  							marginBottom None
+  							tallness Fitting
+  							attributes [  ]
+  						}
+  					MoveLeft _W3_-wPvcEeW8X9EYF1nxvw at 2,2 size 7,14  {
+  					}
+  					
+  					MoveRight _W4Al0PvcEeW8X9EYF1nxvw at 10,2 size 7,14  {
+  					}
+  					
+  					ButtonGroup _CqJLEPvsEeWWodZOLky4iQ at 10,30 size 230,110  {
+  						alignment horizontal
+  						size Default
+  						generalStyle GeneralStyling {
+  								marginTop None
+  								marginBottom None
+  								tallness Fitting
+  								attributes [  ]
+  							}
+  						MoveUp _CqODkPvsEeWWodZOLky4iQ at 2,2 size 14,7  {
+  						}
+  						
+  						MoveDown _CqPRsPvsEeWWodZOLky4iQ at 2,10 size 14,7  {
+  						}
+  						
+  						Button _CqcGAPvsEeWWodZOLky4iQ at 10,30 size 200,60  {
+  							label "Remove"
+  							displayLabel "List"
+  							styling ButtonStyling {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Red
+  								}
+  							options ButtonOptions {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon {
+  									preIcon Trash
+  									postIcon None
+  								}
+  							generalStyle GeneralStyling {
+  									marginTop None
+  									marginBottom None
+  									tallness Fitting
+  									attributes [  ]
+  								}
+  							MoveLeft _CqqvgPvsEeWWodZOLky4iQ at 2,2 size 7,14  {
+  							}
+  							
+  							MoveRight _CqsksPvsEeWWodZOLky4iQ at 10,2 size 7,14  {
+  							}
+  						}
+  					}
+  				}
+  			}
+  			
+  			GUISIB _UXnSYPvsEeWWodZOLky4iQ at 10,360 size 150,126 index 2 {
+  				name "ManageOwners"
+  				libraryComponentUID "_T77ycN7hEeW7MO8ocVWj8Q"
+  				label "ManageOwners"
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				ComplexInputPort _UXwcUPvsEeWWodZOLky4iQ at 5,67 size 90,18  {
+  					libraryComponentUID "_4nGPMM5AEeWKGIrSDzlNog"
+  					isList false
+  					name "currentList"
+  				}
+  				
+  				ComplexInputPort _UYA7APvsEeWWodZOLky4iQ at 5,103 size 90,18 index 4 {
+  					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  					isList true
+  					name "users"
+  				}
+  				
+  				ComplexInputPort _UX4YIPvsEeWWodZOLky4iQ at 5,85 size 90,18 index 1 {
+  					libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  					isList true
+  					name "owners"
+  				}
+  				
+  				MoveUp _UYPkgPvsEeWWodZOLky4iQ at 2,2 size 14,7 index 2 {
+  				}
+  				
+  				MoveDown _UYQyoPvsEeWWodZOLky4iQ at 2,10 size 14,7 index 3 {
+  				}
+  			}
+  			
+  			GUISIB _TiQXsPvsEeWWodZOLky4iQ at 10,260 size 150,90 index 3 {
+  				name "ManageEntries"
+  				libraryComponentUID "_bS1KsN7lEeW7MO8ocVWj8Q"
+  				label "ManageEntries"
+  				generalStyle GeneralStyling {
+  						marginTop None
+  						marginBottom None
+  						tallness Fitting
+  						attributes [  ]
+  					}
+  				MoveUp _Tix8IPvsEeWWodZOLky4iQ at 2,2 size 14,7  {
+  				}
+  				
+  				MoveDown _TizKQPvsEeWWodZOLky4iQ at 2,10 size 14,7  {
+  				}
+  				
+  				ComplexInputPort _TimV8PvsEeWWodZOLky4iQ at 5,67 size 90,18  {
+  					libraryComponentUID "_4nGPMM5AEeWKGIrSDzlNog"
+  					isList false
+  					name "currentList"
+  				}
+  			}
+  		}
+  	}
+  }
+  
+  DataContext _gGKjUMwMEeWZVvvwxpYu8A at 70,500 size 201,301  {
+  	dfViewWorkaround true
+  	ComplexVariable _fN20YNDEEeWvl7dmsyHdTA at 20,30 size 140,51  {
+  		isLive false
+  		expanded true
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "currentUser"
+  		isList false
+  		isInput false
+  		ComplexAttribute _0oNNYG-GEeaFfqFaF_Izdg at 20,23 size 100,25  {
+  			libraryComponentUID "_fPY24MwNEeWZVvvwxpYu8A"
+  			isLive false
+  		}
+  		-ComplexAttributeConnector-> _nM2rQNDEEeWvl7dmsyHdTA  decorate "Ellipse" at (0,0) {
+  			id _nNBqYNDEEeWvl7dmsyHdTA
+  			associationName "todoLists"
+  		}
+  	}
+  	
+  	ComplexVariable _nM2rQNDEEeWvl7dmsyHdTA at 20,110 size 140,25  {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_4nGPMM5AEeWKGIrSDzlNog"
+  		dfViewWorkaround true
+  		name "todoLists"
+  		isList true
+  		isInput false
+  		-ComplexListAttributeConnector-> _SvNF4NDFEeWvl7dmsyHdTA  decorate "Ellipse" at (0,0) {
+  			id _SvXd8NDFEeWvl7dmsyHdTA
+  			attributeName current
+  		}
+  		
+  		-FOR-> _W3oLUPvcEeW8X9EYF1nxvw  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _z6HhwPvqEeWWodZOLky4iQ
+  			index "index"
+  		}
+  	}
+  	
+  	ComplexVariable _SvNF4NDFEeWvl7dmsyHdTA at 20,160 size 140,25 index 4 {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_4nGPMM5AEeWKGIrSDzlNog"
+  		dfViewWorkaround true
+  		name "currentList"
+  		isList false
+  		isInput false
+  		-ComplexRead-> _TimV8PvsEeWWodZOLky4iQ via (292,685) (292,706) decorate "Polyline" at (2,0) {
+  			id _ZR-TkPvsEeWWodZOLky4iQ
+  		}
+  		
+  		-AddComplexToSubmission-> _CqcGAPvsEeWWodZOLky4iQ via (328,674) (328,460) decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _4SXiIPvvEeWWodZOLky4iQ
+  		}
+  		
+  		-ComplexRead-> _UXwcUPvsEeWWodZOLky4iQ via (296,687) (296,805) decorate "Polyline" at (2,0) {
+  			id _Z7LBkPvsEeWWodZOLky4iQ
+  		}
+  		
+  		-ComplexAttributeConnector-> _F4_FgNGCEeWXCa8rTS1WfA via (58,671) (58,763) decorate "Ellipse" at (0,0) {
+  			id _F5Mg4NGCEeWXCa8rTS1WfA
+  			associationName "owners"
+  		}
+  	}
+  	
+  	ComplexVariable _Wc5l0NMZEeWJV9QOcxWQYg at 19,210 size 140,25 index 2 {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "allUsers"
+  		isList true
+  		isInput true
+  		-ComplexRead-> _UYA7APvsEeWWodZOLky4iQ via (322,734) (322,842) decorate "Polyline" at (2,0) {
+  			id _XighEPvsEeWWodZOLky4iQ
+  		}
+  	}
+  	
+  	ComplexVariable _F4_FgNGCEeWXCa8rTS1WfA at 20,250 size 140,25 index 3 {
+  		isLive false
+  		expanded false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		dfViewWorkaround true
+  		name "owners"
+  		isList true
+  		isInput false
+  		-ComplexRead-> _UX4YIPvsEeWWodZOLky4iQ via (170,824) decorate "Polyline" at (2,0) {
+  			id _aidrEPvsEeWWodZOLky4iQ
+  		}
+  	}
+  }
+}

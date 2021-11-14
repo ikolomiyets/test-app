@@ -1,0 +1,116 @@
+Data _tH3fEMwMEeWZVvvwxpYu8A {
+  modelName "todo"
+  UserType _UdYs4MwNEeWZVvvwxpYu8A at 233,190 size 143,145 {
+  	name "BaseUser"
+  	UserAttribute _fOkXgMwNEeWZVvvwxpYu8A at 5,32 size 133,18 {
+  		oppositeAttribute _fPY24MwNEeWZVvvwxpYu8A
+  		dataType _dh6BYMwNEeWZVvvwxpYu8A
+  		name "concreteUser"
+  		isList true
+  	}
+  	
+  	PrimitiveAttribute _YIIgUMwNEeWZVvvwxpYu8A at 5,50 size 133,18 {
+  		dataType Text
+  		name "password"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _3QnzMM46EeWKGIrSDzlNog at 5,68 size 133,18 {
+  		dataType File
+  		name "image"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _VE6ToM5BEeWKGIrSDzlNog at 5,86 size 133,18 {
+  		dataType Text
+  		name "firstName"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _WYcYEM5BEeWKGIrSDzlNog at 5,104 size 133,18 {
+  		dataType Text
+  		name "lastName"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _uQ7hQG-REea63b_QA5t-xw at 5,122 size 133,18 {
+  		dataType Text
+  		name "username"
+  		isList false
+  	}
+  	-UserAssociation-> _dh6BYMwNEeWZVvvwxpYu8A  decorate "Text" at (4,-8) decorate "Text" at (12,-7) {
+  		id _fOZ_cMwNEeWZVvvwxpYu8A
+  		targetAttr _fOkXgMwNEeWZVvvwxpYu8A
+  		isHidden false
+  		sourceAttr _fPY24MwNEeWZVvvwxpYu8A
+  	}
+  }
+  
+  ConcreteType _dh6BYMwNEeWZVvvwxpYu8A at 249,60 size 111,73 {
+  	name "ConcreteUser"
+  	UserAttribute _fPY24MwNEeWZVvvwxpYu8A at 5,32 size 101,18 {
+  		oppositeAttribute _fOkXgMwNEeWZVvvwxpYu8A
+  		dataType _UdYs4MwNEeWZVvvwxpYu8A
+  		name "baseUser"
+  		isList false
+  	}
+  	
+  	BidirectionalAttribute _GXy-8M5BEeWKGIrSDzlNog at 5,50 size 101,18 {
+  		oppositeAttribute _GYgwoM5BEeWKGIrSDzlNog
+  		dataType _4nGPMM5AEeWKGIrSDzlNog
+  		name "todoLists"
+  		isList true
+  	}
+  	-BidirectionalAssociation-> _4nGPMM5AEeWKGIrSDzlNog  decorate "Text" at (0,0) decorate "Text" at (0,0) {
+  		id _GXs4UM5BEeWKGIrSDzlNog
+  		targetAttr _GXy-8M5BEeWKGIrSDzlNog
+  		isHidden false
+  		sourceAttr _GYgwoM5BEeWKGIrSDzlNog
+  	}
+  }
+  
+  ConcreteType _4nGPMM5AEeWKGIrSDzlNog at 72,141 size 120,91 {
+  	name "TODOList"
+  	PrimitiveAttribute _8ZEsAM5AEeWKGIrSDzlNog at 5,32 size 110,18 {
+  		dataType Text
+  		name "description"
+  		isList false
+  	}
+  	
+  	BidirectionalAttribute _Ajon8M5BEeWKGIrSDzlNog at 5,50 size 110,18 {
+  		oppositeAttribute _AkXnwM5BEeWKGIrSDzlNog
+  		dataType _t3jPkMwMEeWZVvvwxpYu8A
+  		name "entries"
+  		isList true
+  	}
+  	
+  	BidirectionalAttribute _GYgwoM5BEeWKGIrSDzlNog at 5,68 size 110,18 {
+  		oppositeAttribute _GXy-8M5BEeWKGIrSDzlNog
+  		dataType _dh6BYMwNEeWZVvvwxpYu8A
+  		name "owners"
+  		isList true
+  	}
+  	-BidirectionalAssociation-> _t3jPkMwMEeWZVvvwxpYu8A  decorate "Text" at (5,-8) decorate "Text" at (5,-3) {
+  		id _AjihUM5BEeWKGIrSDzlNog
+  		targetAttr _Ajon8M5BEeWKGIrSDzlNog
+  		isHidden false
+  		sourceAttr _AkXnwM5BEeWKGIrSDzlNog
+  	}
+  }
+  
+  ConcreteType _t3jPkMwMEeWZVvvwxpYu8A at 72,270 size 120,73 {
+  	name "TODOEntry"
+  	PrimitiveAttribute _v85ygMwMEeWZVvvwxpYu8A at 5,32 size 110,18 {
+  		dataType Text
+  		name "description"
+  		isList false
+  	}
+  	
+  	BidirectionalAttribute _AkXnwM5BEeWKGIrSDzlNog at 5,50 size 110,18 {
+  		oppositeAttribute _Ajon8M5BEeWKGIrSDzlNog
+  		dataType _4nGPMM5AEeWKGIrSDzlNog
+  		name "list"
+  		isList false
+  	}
+  }
+}
